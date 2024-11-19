@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.image("./img/jaynat.jpg")
-st.header('Information Technology')
 st.header('Nattiwut')
+st.header('Information Technology')
 col1, col2, col3 = st.columns(3)
 
 with col1:
