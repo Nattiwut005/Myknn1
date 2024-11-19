@@ -43,8 +43,8 @@ dx2 = pd.DataFrame(dx, index=["d1", "d2", "d3", "d4"])
 
 if st.button("แสดงการจินตทัศน์ข้อมูล"):
 #st.write(dt.head(10))
-st.bar_chart(dx2)
-st.button("ไม่แสดงข้อมูล")
+    st.bar_chart(dx2)
+    st.button("ไม่แสดงข้อมูล")
 else:
     st.write("ไม่แสดงข้อมูล")
 
