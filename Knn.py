@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 st.image("./img/jaynat.jpg")
 st.header('Nattiwut')
-st.title('Information Technology')
+st.subheader('Information Technology')
 col1, col2, col3 = st.columns(3)
 
 with col1:
